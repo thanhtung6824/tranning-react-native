@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/mac/.nvm/versions/node/v8.9.4/bin/node',
+1 verbose cli   '/Users/mac/.nvm/versions/node/v8.9.4/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'test',
+1 verbose cli   '--no-cache' ]
+2 info using npm@5.6.0
+3 info using node@v8.9.4
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle salefie@0.0.1~pretest: salefie@0.0.1
+6 info lifecycle salefie@0.0.1~test: salefie@0.0.1
+7 verbose lifecycle salefie@0.0.1~test: unsafe-perm in lifecycle true
+8 verbose lifecycle salefie@0.0.1~test: PATH: /Users/mac/.nvm/versions/node/v8.9.4/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/mac/app-native/node_modules/.bin:/Users/mac/.nvm/versions/node/v8.9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+9 verbose lifecycle salefie@0.0.1~test: CWD: /Users/mac/app-native
+10 silly lifecycle salefie@0.0.1~test: Args: [ '-c', 'jest' ]
+11 silly lifecycle salefie@0.0.1~test: Returned: code: 1  signal: null
+12 info lifecycle salefie@0.0.1~test: Failed to exec test script
+13 verbose stack Error: salefie@0.0.1 test: `jest`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/Users/mac/.nvm/versions/node/v8.9.4/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:285:16)
+13 verbose stack     at emitTwo (events.js:126:13)
+13 verbose stack     at EventEmitter.emit (events.js:214:7)
+13 verbose stack     at ChildProcess.<anonymous> (/Users/mac/.nvm/versions/node/v8.9.4/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at emitTwo (events.js:126:13)
+13 verbose stack     at ChildProcess.emit (events.js:214:7)
+13 verbose stack     at maybeClose (internal/child_process.js:925:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+14 verbose pkgid salefie@0.0.1
+15 verbose cwd /Users/mac/app-native
+16 verbose Darwin 18.2.0
+17 verbose argv "/Users/mac/.nvm/versions/node/v8.9.4/bin/node" "/Users/mac/.nvm/versions/node/v8.9.4/bin/npm" "run" "test" "--no-cache"
+18 verbose node v8.9.4
+19 verbose npm  v5.6.0
+20 error code ELIFECYCLE
+21 error errno 1
+22 error salefie@0.0.1 test: `jest`
+22 error Exit status 1
+23 error Failed at the salefie@0.0.1 test script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]

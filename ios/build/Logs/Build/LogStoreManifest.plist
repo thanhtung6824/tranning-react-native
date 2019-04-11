@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>02C2D556-39B3-4268-B649-C9197552CDB4</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>02C2D556-39B3-4268-B649-C9197552CDB4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>salefie project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>salefie</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace salefie with scheme salefie and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>574251581.37854898</real>
+			<key>timeStoppedRecording</key>
+			<real>574251582.99407601</real>
+			<key>title</key>
+			<string>Building workspace salefie with scheme salefie and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>02C2D556-39B3-4268-B649-C9197552CDB4</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

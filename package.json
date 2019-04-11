@@ -1,0 +1,63 @@
+{
+  "name": "salefie",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint *.js **/*.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run test"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "es6-promise": "^4.2.6",
+    "eslint": "^5.14.1",
+    "isomorphic-fetch": "^2.2.1",
+    "native-base": "^2.11.0",
+    "react": "16.6.3",
+    "react-native": "0.58.5",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-native-maps": "^0.23.0",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "^3.3.0",
+    "react-navigation-redux-helpers": "^3.0.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-form": "^8.1.0",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "axios-mock-adapter": "^1.16.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "24.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-watch": "^4.0.2",
+    "husky": "^1.3.1",
+    "jest": "24.1.0",
+    "jest-expo": "^32.0.0",
+    "metro-react-native-babel-preset": "0.52.0",
+    "react-test-renderer": "16.6.3",
+    "redux-saga-testing": "^1.0.5"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|react-native-iphone-x-helper|react-navigation-stack|react-native-screens|react-native-maps|react-native-svg|react-native-branch|native-base-shoutem-theme|react-native-easy-grid|react-native-drawer|react-native-vector-icons|react-native-keyboard-aware-scroll-view|react-navigation|native-base|react-native-gesture-handler|react-native-scrollable-tab-view|)/)"
+    ]
+  }
+}
