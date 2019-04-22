@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mac/app-native/node_modules/react-native/Libraries/fishhook/fishhook.c \
-  /Users/mac/app-native/node_modules/react-native/Libraries/fishhook/fishhook.h
+  /Users/mac/native-app/node_modules/react-native/Libraries/fishhook/fishhook.c \
+  /Users/mac/native-app/node_modules/react-native/Libraries/fishhook/fishhook.h

@@ -1,8 +1,10 @@
 dependencies: \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTPlatform.m \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTPlatform.h \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTVersion.h
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTPlatform.m \
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTPlatform.h \
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/mac/native-app/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/mac/native-app/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTVersion.h

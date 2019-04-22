@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTCxxConvert.m \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTCxxConvert.h
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTCxxConvert.m \
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTCxxConvert.h

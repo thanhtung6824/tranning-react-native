@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "842B788A901117D21DCFEEB1CBB01CE0"
+               BlueprintIdentifier = "8064DA0091D7D047834F5B90CAB347DA"
                BlueprintName = "react-native-maps"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libreact-native-maps.a">

@@ -2,6 +2,10 @@
 #platform :ios, '9.0'
 
 target 'salefie' do
+pod 'FBSDKLoginKit'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+
 pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 pod 'React', path: '../node_modules/react-native', :subspecs => [
 'Core',
@@ -22,6 +26,8 @@ pod 'GoogleMaps'  # <~~ remove this line if you do not want to support GoogleMap
 pod 'react-native-maps', path: '../node_modules/react-native-maps/'
 pod 'react-native-google-maps', path: '../node_modules/react-native-maps/'  # <~~ if you need GoogleMaps support on iOS
 pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
+
 end
 post_install do |installer|
 installer.pods_project.targets.each do |target|

@@ -1,4 +1,6 @@
 dependencies: \
-  /Users/mac/app-native/node_modules/react-native/React/Profiler/RCTProfileTrampoline-arm64.S \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/mac/app-native/node_modules/react-native/React/Profiler/RCTMacros.h
+  /Users/mac/native-app/node_modules/react-native/React/Profiler/RCTProfileTrampoline-arm64.S \
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/mac/native-app/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/mac/native-app/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/mac/native-app/node_modules/react-native/React/Profiler/RCTMacros.h

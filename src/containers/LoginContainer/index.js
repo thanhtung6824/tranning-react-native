@@ -6,6 +6,8 @@ import {
 import {Field, reduxForm, formValueSelector} from 'redux-form';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
+import {AccessToken, LoginManager} from 'react-native-fbsdk';
+import firebase from 'react-native-firebase';
 import Login from '../../screens/Login';
 import validator from '../../validator/index';
 import * as loginAction from './sagas/actions';
@@ -13,21 +15,15 @@ import toastr from '../../components/Toastr/index';
 import loginStyle from '../../styles/login';
 import componentRounded from '../../styles/component-rounded';
 import * as loadingAction from '../../common/actions';
+import NavigationServices from '../../navigations/NavigatorService';
 
-export interface Props {
-    navigation: any;
-    valid: boolean;
-}
-
-export interface State {
-}
-
-class LoginForm extends React.Component<Props, State> {
+class LoginForm extends React.Component {
     textInput: any; // eslint-disable-line
 
     constructor(props) {
         super(props);
         this.login = this.login.bind(this);
+        this.loginWithFacebook = this.loginWithFacebook.bind(this);
     }
 
     renderInput({input, meta: {touched, error}}) {
@@ -66,6 +62,29 @@ class LoginForm extends React.Component<Props, State> {
         }
     }
 
+    loginWithFacebook() {
+        LoginManager
+            .logInWithReadPermissions(['public_profile'])
+            .then((result) => {
+                if (result.isCancelled) {
+                    console.log('Login cancelled');
+                } else {
+                    console.log(`Login success with permissions: ${result.grantedPermissions.toString()}`);
+                }
+                return AccessToken.getCurrentAccessToken();
+            },
+            (error) => {
+                console.log(`Login fail with error: ' ${error}`);
+            })
+            .then((data) => {
+                const credential = firebase.auth.FacebookAuthProvider.credential(data.accessToken);
+                return firebase.auth().signInWithCredential(credential);
+            })
+            .then(() => {
+                NavigationServices.navigate('Music');
+            });
+    }
+
     render() {
         const form = (
             <Form>
@@ -81,7 +100,13 @@ class LoginForm extends React.Component<Props, State> {
                 />
             </Form>
         );
-        return <Login loginForm={form} onLogin={() => this.login()}/>;
+        return (
+            <Login
+                loginForm={form}
+                onLogin={() => this.login()}
+                onLoginWithFacebook={() => this.loginWithFacebook()}
+            />
+        );
     }
 }
 

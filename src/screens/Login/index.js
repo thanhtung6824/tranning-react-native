@@ -6,13 +6,6 @@ import {
 import style from '../../styles/login';
 import Loading from '../../components/Loading';
 
-export interface Props {
-    loginForm: any;
-    onLogin: Function;
-}
-
-export interface State {
-}
 
 const Login = ({...props}) => (
     <Container style={[{backgroundColor: '#ffffff'}, style.logo]}>
@@ -37,6 +30,21 @@ const Login = ({...props}) => (
                         Login
                     </Text>
                 </Button>
+
+                <Button
+                    block
+                    info
+                    style={style.button}
+                    onPress={() => props.onLoginWithFacebook()}
+                >
+                    <Text
+                        allowFontScaling={false}
+                        style={style.text}
+                    >
+                        Login with Facebook
+                    </Text>
+                </Button>
+
             </View>
         </Content>
     </Container>

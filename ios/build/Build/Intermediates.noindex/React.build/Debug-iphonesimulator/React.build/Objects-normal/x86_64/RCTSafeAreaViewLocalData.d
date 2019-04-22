@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mac/app-native/node_modules/react-native/React/Views/SafeAreaView/RCTSafeAreaViewLocalData.m \
-  /Users/mac/app-native/node_modules/react-native/React/Views/SafeAreaView/RCTSafeAreaViewLocalData.h
+  /Users/mac/native-app/node_modules/react-native/React/Views/SafeAreaView/RCTSafeAreaViewLocalData.m \
+  /Users/mac/native-app/node_modules/react-native/React/Views/SafeAreaView/RCTSafeAreaViewLocalData.h

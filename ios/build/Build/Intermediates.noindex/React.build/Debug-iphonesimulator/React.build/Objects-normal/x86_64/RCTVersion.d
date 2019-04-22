@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTVersion.m \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTVersion.h
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTVersion.m \
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTVersion.h

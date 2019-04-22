@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
-  /Users/mac/app-native/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
+  /Users/mac/native-app/node_modules/react-native/React/Base/RCTMultipartStreamReader.h

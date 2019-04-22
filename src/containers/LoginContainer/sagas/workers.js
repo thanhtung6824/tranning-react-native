@@ -31,7 +31,7 @@ export function* loginSuccessWorker(action) {
         logo: action.response.Data.Company.Logo,
     };
     AsyncStorage.setItem('user', JSON.stringify(userInfo));
-    NavigationServices.navigate('Drawer', {params});
+    NavigationServices.navigate('Music', {params});
 }
 
 export function* loginFailedWorker(action) {

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mac/app-native/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.m \
-  /Users/mac/app-native/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.h
+  /Users/mac/native-app/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.m \
+  /Users/mac/native-app/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.h
