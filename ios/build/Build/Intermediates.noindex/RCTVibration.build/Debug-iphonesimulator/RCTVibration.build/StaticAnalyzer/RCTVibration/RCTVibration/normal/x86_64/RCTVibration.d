@@ -1,5 +1,0 @@
-dependencies: \
-  /Users/mac/native-app/node_modules/react-native/Libraries/Vibration/RCTVibration.m \
-  /Users/mac/native-app/node_modules/react-native/Libraries/Vibration/RCTVibration.h \
-  /Users/mac/native-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/mac/native-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h
